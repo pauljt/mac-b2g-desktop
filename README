@@ -3,7 +3,10 @@ This is a build of b2g desktop for Mac OSX ( ril enabled, debug disabled). (b2g-
 Prerequisites
 ---------------
 - Mac
-- A local copy of the b2g Gaia source.  (git clone https://github.com/andreasgal/gaia)
+- A local copy of the b2g Gaia repo. DOn't forget to run make in the gaia dir. i.e.
+	$ git clone https://github.com/andreasgal/gaia.git
+	$ cd gaia
+	$ make
 
 
 Installing this B2G build on a  mac
@@ -12,7 +15,7 @@ Installing this B2G build on a  mac
 	
 	git clone https://github.com/pauljt/mac-b2g-desktop
 
-2. Open the DMG file, and drag the B2G to your Applications folder
+2. Open the DMG file, and drag the B2G folder to your Applications folder
 
 3. Run the app using profile from the Gaia directory. For example, if you cloned gaia in ~/src directory , you run the following command:
 
@@ -22,3 +25,4 @@ Installing this B2G build on a  mac
 More option,help and how to build your own version are available from:
 https://wiki.mozilla.org/Gaia/Hacking
 
+*NOTE: It may crash on first run with "ensureDB error cb!" in the console. Not sure why this is, but closing and reopening worked for me.
