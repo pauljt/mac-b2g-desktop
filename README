@@ -1,3 +1,24 @@
-Build of b2g desktop for Mac ( ril enabled, debug disabled).
+This is a build of b2g desktop for Mac OSX ( ril enabled, debug disabled). (b2g-15.0a1.en-US.mac64) To install and run this, you also need a local copy 
 
+Prerequisites
+---------------
+- Mac
+- A local copy of the b2g Gaia source.  (git clone https://github.com/andreasgal/gaia)
+
+
+Installing this B2G build on a  mac
+------------
+1. Grab the dmg from this repo 
+	
+	git clone https://github.com/pauljt/mac-b2g-desktop
+
+2. Open the DMG file, and drag the B2G to your Applications folder
+
+3. Run the app using profile from the Gaia directory. For example, if you cloned gaia in ~/src directory , you run the following command:
+
+	/Applications/B2G.app/Contents/MacOS/b2g -profile ~/src/gaia/profile
+
+
+More option,help and how to build your own version are available from:
+https://wiki.mozilla.org/Gaia/Hacking
 
